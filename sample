@@ -1,0 +1,2 @@
+#sudo valgrind --max-threads=1000 --leak-check=full ./TcpSynAckPortScannerApplication -tps 200 -bc 100 -ip 10.255.138.201 -t 1000 -ip 206.190.36.45 -bd 20 -ip 8.8.8.8 -ip 127.0.0.1 -ip 192.168.122.1 
+sudo ./TcpSynAckPortScannerApplication -tps 200 -bc 100 -ip 10.255.138.201 -t 1000 -ip 206.190.36.45 -bd 20 -ip 8.8.8.8 -ip 127.0.0.1 -ip 192.168.122.1 
