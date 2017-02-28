@@ -326,7 +326,7 @@ command line options:
        This is the amount of time sender thread waits between sending TCP/IP SYN packet bursts.
        Default value is 20 Milli Seconds.
 
-For more information regarding any of the input options, please consider going through the README.1st document.
+For more information regarding any of the input options, please consider going through the README.md document.
 ```
 
 **Sample Execution Session**
