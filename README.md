@@ -325,12 +325,13 @@ command line options:
 -bd  : Requires a delay in Milli Seconds.
        This is the amount of time sender thread waits between sending TCP/IP SYN packet bursts.
        Default value is 20 Milli Seconds.
-```
 
 For more information regarding any of the input options, please consider going through the README.1st document.
+```
 
-Sample Execution Session
+**Sample Execution Session**
 ------------------------
+________________________
 ```
 sudo ./TcpSynAckPortScannerApplication -tps 20 -t 2000 -bc 100 -bd 20 -ip 10.255.138.201 -ip 10.255.138.201 -ip 192.168.122.1
 [sudo] password for sagar: 
