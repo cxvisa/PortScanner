@@ -2,6 +2,12 @@
 TCP/IP SYN-ACK Port Scanner
 ===========================
 
+**LICENSE**
+-----------
+___________
+
+This code is being made available to the pulbic under [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+
 **INTRODUCTION**
 ----------------
 ____________
