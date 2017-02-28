@@ -201,7 +201,7 @@ The current implementation takes the following input parameters:
 ---------------
 ___________
 
-*  README.1st
+*  README.md
      * This file
 
 *  Makefile
