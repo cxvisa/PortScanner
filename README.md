@@ -126,8 +126,7 @@ _________________
       scenarios like the following:
 
         * Evading "BASIC" TCP/IP SYN attack detectors
-        * Avoiding severe packet loss because of congestion on egress
-	    and also on the ingress side (when the ACK packets come back)
+        * Avoiding severe packet loss because of congestion on egress and also on the ingress side (when the ACK packets come back)
 
 6.  Then the scanner waits for all of the sender threads to finish sending
       TCP/IP SYN packets.
