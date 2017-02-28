@@ -35,7 +35,7 @@ The scope of the exercise is limited to the following:
   * Making using of PTHREADs for concurrency and minimize packet loss
 
 Please note that working with the following areas among others were covered
-in this code base as they are available in Framework/Utils directory under Wave Repository:
+in this code base as they are available in Framework/Utils directory under Wave Repository located [here](https://github.com/cxvisa/Wave/tree/master/C%2B%2B/source/Framework/Utils/PortScanner):
 
   * Working with IPV6 Adresses
   * Working with Asynchrnous sockets
