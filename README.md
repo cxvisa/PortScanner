@@ -201,35 +201,35 @@ The current implementation takes the following input parameters:
 ---------------
 ___________
 
-*  README.md
+*  **README.md**
      * This file
 
-*  Makefile
+*  **Makefile**
      * A simple Makefile
 
-*  RouteUtils.cpp
-*  RouteUtils.h
+*  **RouteUtils.cpp**
+*  **RouteUtils.h**
      * A class containing Kernel Routing table lookups
 
-*  SourceForDest.cpp
+*  **SourceForDest.cpp**
      * A simple test application invoking route utils to obtain
        preferred source, ifindex and gateway for a given destination
        ipv4 address
 
-*  TcpSynAckPacketReceiver.cpp
-*  TcpSynAckPacketReceiver.h
+*  **TcpSynAckPacketReceiver.cpp**
+*  **TcpSynAckPacketReceiver.h**
      * A class abstracting the TCP/IP SYN-ACK packer receiver side code
 
-*  TcpSynPacketSender.cpp
-*  TcpSynPacketSender.h
+*  **TcpSynPacketSender.cpp**
+*  **TcpSynPacketSender.h**
      * A Class abstracting the TCP/IP SYN Packet sender side code
 
-*  TcpSynAckPortScanner.cpp
-*  TcpSynAckPortScanner.h
+*  **TcpSynAckPortScanner.cpp**
+*  **TcpSynAckPortScanner.h**
      * A class abstracting the overall TCP/IP SYN/ACK based port scanner
        functionality
 
-*  TcpSynAckPortScannerApplication.cpp
+*  **TcpSynAckPortScannerApplication.cpp**
      * Top level scanner application invoking the TcpSynAckPortScanner  
 
 **WHERE TO START**
@@ -247,17 +247,17 @@ ______________________
 *  Optimized version
      * Issue the following command
 
-       gmake
+       * ```gmake```
 
 * Debug version
      * Issue the following command
 
-       gmake debug
+       * ```gmake debug```
 
 * Clean up
      *  Issue the following command:
-
-        gmake clean
+     
+       * ```gmake clean```
 
 When Optmized/Debug version is compiled using the commands mentioned above,
 the folliwng two binaries will be generated:
