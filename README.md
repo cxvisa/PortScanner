@@ -61,7 +61,7 @@ _________________
       as in the following to receive all IP packets with ethernet header
       removed.
 
-      m_rawSocketForTcpIp = socket (AF_PACKET, SOCK_DGRAM, htons (ETH_P_IP))
+      ```m_rawSocketForTcpIp = socket (AF_PACKET, SOCK_DGRAM, htons (ETH_P_IP))```
 
       Then the socket will join a PACKET_FANOUT group with PACKET_FANOUT_LB
       option.  this will ensure that all TCP/IP SYN-ACK packets coming back to
@@ -86,7 +86,7 @@ _________________
 
       We launch a separate thread per destination IP address as below:
 
-      m_rawSocketForTcpIp = socket (AF_INET, SOCK_RAW, IPPROTO_TCP)
+      ```m_rawSocketForTcpIp = socket (AF_INET, SOCK_RAW, IPPROTO_TCP)```
 
       We then indicate that the IP headers are included in the packet since
       we will be crafting the IP Header and TCP header to send out the TCP/IP
@@ -231,7 +231,7 @@ ___________
 --------------
 ______________
 
-Pleaser start in the file TcpSynAckPortScannerApplication.cpp and walk through
+Pleaser start in the file `TcpSynAckPortScannerApplication.cpp` and walk through
 the code for top down flow.
 
 
@@ -285,6 +285,7 @@ General usage help and a sample execution output are listed below
 The binary TcpSynAckPortScannerApplication can be run with the following
 command line options:
 
+```
 ./TcpSynAckPortScannerApplication <-ip <IPV4 Address>> [[-ip <IPV4Address>]...] [-p <Port Range>] [-tps <Number Of Threads Per Source Interface>] [-t <Receiver Thread Time Out in Milli Seconds>] [-bc <Batch Count>] [-bd <Batch Delay in Milli Seconds>]
 
 -ip  : Requires an IP V4 Address.
@@ -319,11 +320,13 @@ command line options:
 -bd  : Requires a delay in Milli Seconds.
        This is the amount of time sender thread waits between sending TCP/IP SYN packet bursts.
        Default value is 20 Milli Seconds.
+```
 
 For more information regarding any of the input options, please consider going through the README.1st document.
 
 Sample Execution Session
 ------------------------
+```
 sudo ./TcpSynAckPortScannerApplication -tps 20 -t 2000 -bc 100 -bd 20 -ip 10.255.138.201 -ip 10.255.138.201 -ip 192.168.122.1
 [sudo] password for sagar: 
 Packets to  10.255.138.201 are sent using source   172.16.179.77 on Interface Index     2 via gateway    172.16.179.2
