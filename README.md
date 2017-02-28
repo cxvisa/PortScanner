@@ -29,7 +29,7 @@ The scope of the exercise is limited to the following:
   * Making using of PTHREADs for concurrency and minimize packet loss
 
 Please note that working with the following areas among others were covered
-in this code base s they are available in Framework/Utils directory under Wave Repository:
+in this code base as they are available in Framework/Utils directory under Wave Repository:
 
   * Working with IPV6 Adresses
   * Working with Asynchrnous sockets
