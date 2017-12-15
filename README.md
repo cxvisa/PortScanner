@@ -235,7 +235,7 @@ ___________
 --------------
 ______________
 
-Pleaser start in the file `TcpSynAckPortScannerApplication.cpp` and walk through
+Please start in the file `TcpSynAckPortScannerApplication.cpp` and walk through
 the code for top down flow.
 
 
